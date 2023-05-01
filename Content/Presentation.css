@@ -1,0 +1,53 @@
+﻿.cleancode-logo{
+    width: 128px;
+    height: 128px;
+}
+
+.cleancode-data{
+    flex-direction:row;
+    background-color: white;
+}
+
+.cleancode-text > h2{
+    color: var(--green-main);
+}
+
+.cleancode-text > h2{
+    margin: 2px;
+}
+.cleancode-text > p{
+    margin: 2px;
+}
+
+.cleancode-members{
+    padding: 10px;
+    display: flex;
+    background-color: white;
+}
+
+.generic-member{
+    padding: 10px;
+    background-color: var(--gray);
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.generic-member > div > h3,h4{
+    margin: 0;
+}
+
+.generic-member > div > h4{
+    color: var(--green-main);
+}
+
+.generic-member > div > h3{
+    color: var(--green-dark);
+}
+
+
+.generic-member > img{
+    background-color: var(--green-light);
+    width: 48px;
+    height: 48px;
+}
+

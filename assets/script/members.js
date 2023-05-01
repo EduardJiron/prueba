@@ -1,0 +1,1 @@
+﻿let decoMembers = document.querySelector(".cleancode-members deco")
